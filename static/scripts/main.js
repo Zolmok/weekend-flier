@@ -1,6 +1,6 @@
 async function fetchLatestVideo() {
   const channelId = "UCknnHfBlDvDYeAZA2HmC1nw";
-  const apiKey = "AIzaSyBJzxVYNZObf_en1euxEtxhb5FPlth3cpQ";
+  const apiKey = "AIzaSyBuQqAcAZERg1rC8WXF1KiETu5AsGTNGjE";
   const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&order=date&part=snippet&type=video&maxResults=1`;
 
   try {
